@@ -216,19 +216,14 @@
     gap: 10px; 
 }
 
-.member-images img {
-    width: 152px; 
-    height: auto; 
-}
-
 img[alt="member"] {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	width: auto;
-	height: 220px;
-	border-radius: 8px;
-  }
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+}
 
   .menu {
     display: flex;
